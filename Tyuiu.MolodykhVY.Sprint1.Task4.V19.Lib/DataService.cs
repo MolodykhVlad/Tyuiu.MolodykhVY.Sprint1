@@ -11,7 +11,7 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task4.V19.Lib
     {
         public double Calculate(double x, double y)
         {
-            throw new NotImplementedException();
+            return x - y;
         }
     }
 }
