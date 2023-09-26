@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A1EFEB2-1B11-4B6F-8E54-DC6CB2E14A6E}</ProjectGuid>
+    <ProjectGuid>{35130FC4-7A4D-48AB-8429-F4D7416D8D08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.MolodykhVY.Sprint1.Task3.V2.Test</RootNamespace>
-    <AssemblyName>Tyuiu.MolodykhVY.Sprint1.Task3.V2.Test</AssemblyName>
+    <RootNamespace>Tyuiu.MolodykhVY.Sprint1.Task6.V11.Test</RootNamespace>
+    <AssemblyName>Tyuiu.MolodykhVY.Sprint1.Task6.V11.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib\Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib.csproj">
-      <Project>{c4e08712-f8b7-48a1-a4fc-5b03b83f7c1c}</Project>
-      <Name>Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.MolodykhVY.Sprint1.Task6.V11.Lib\Tyuiu.MolodykhVY.Sprint1.Task6.V11.Lib.csproj">
+      <Project>{0295caf9-2710-4ce3-935e-05d3826cae93}</Project>
+      <Name>Tyuiu.MolodykhVY.Sprint1.Task6.V11.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
