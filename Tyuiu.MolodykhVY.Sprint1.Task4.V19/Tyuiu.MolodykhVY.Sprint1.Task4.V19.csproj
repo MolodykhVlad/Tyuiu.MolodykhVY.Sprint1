@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B52928E-2893-4F71-A84D-EC3AE2EDED5C}</ProjectGuid>
+    <ProjectGuid>{EB504AC6-B3EB-418A-BDCB-C9B6A3690C41}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.MolodykhVY.Sprint1.Task3.V2</RootNamespace>
-    <AssemblyName>Tyuiu.MolodykhVY.Sprint1.Task3.V2</AssemblyName>
+    <RootNamespace>Tyuiu.MolodykhVY.Sprint1.Task4.V19</RootNamespace>
+    <AssemblyName>Tyuiu.MolodykhVY.Sprint1.Task4.V19</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib\Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib.csproj">
-      <Project>{c4e08712-f8b7-48a1-a4fc-5b03b83f7c1c}</Project>
-      <Name>Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.MolodykhVY.Sprint1.Task4.V19.Lib\Tyuiu.MolodykhVY.Sprint1.Task4.V19.Lib.csproj">
+      <Project>{1789e88d-40fd-47c1-a053-9cc10014ed78}</Project>
+      <Name>Tyuiu.MolodykhVY.Sprint1.Task4.V19.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
