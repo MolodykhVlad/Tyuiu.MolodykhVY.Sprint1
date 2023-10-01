@@ -7,11 +7,11 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.MolodykhVY.Sprint1.Task3.V2.Lib
 {
-    public class DataService : ISprint1Task2V2
+    public class DataService : ISprint1Task3V2
     {
-        public double ConvertAngleToRad(int value)
+        public double PurchaseAmount(double priceNotebook, int amountNotebook, double pricePencil, int amountPencil)
         {
-            throw new NotImplementedException();
+            return Math.Round((priceNotebook * amountNotebook) + (pricePencil * amountPencil), 3);
         }
     }
 }
