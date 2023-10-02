@@ -11,7 +11,8 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task4.V19.Lib
     {
         public double Calculate(double x, double y)
         {
-            return x - y;
+            var res = x + y / Math.Abs(x - 2);
+            return res;
         }
     }
 }
