@@ -12,7 +12,7 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task6.V11
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнила: Мvолодых В. Ю. | ИИПб-23-3";
+            Console.Title = "Спринт #1 | Выполнила: Молодых В. Ю. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Работа со строками класс String                                   *");
