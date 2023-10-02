@@ -11,7 +11,11 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task6.V11.Lib
     {
         public bool CheckeFirstLetterRepetition(string value)
         {
-            throw new NotImplementedException();
+            DataService d = new DataService();
+            char firstLetter = value[0];
+            bool containsFirstLetter = value.Substring(1).Contains(firstLetter);
+            return containsFirstLetter;
+
         }
     }
 }
