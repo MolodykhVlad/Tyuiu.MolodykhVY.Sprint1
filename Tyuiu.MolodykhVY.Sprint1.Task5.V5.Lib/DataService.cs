@@ -11,7 +11,11 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task5.V5.Lib
     {
         public int Calculate(double x)
         {
-            throw new NotImplementedException();
+            double a = Math.Truncate(x);
+            double b = (x - a) * 10;
+            double m = Math.Truncate(b);
+            int result = Convert.ToInt32(m);
+            return result;
         }
     }
 }
