@@ -10,10 +10,10 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task6.V11.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "Ппиво";
+            string strTest = "Пивощ";
             DataService ds = new DataService();
             bool res = ds.CheckeFirstLetterRepetition(strTest);
-            bool wait = true;
+            bool wait = false;
             Assert.AreEqual(wait, res);
         }
     }
