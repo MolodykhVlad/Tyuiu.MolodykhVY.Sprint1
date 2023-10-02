@@ -11,7 +11,7 @@ namespace Tyuiu.MolodykhVY.Sprint1.Task6.V11.Lib
     {
         public bool CheckeFirstLetterRepetition(string value)
         {
-            DataService d = new DataService();
+            DataService ds = new DataService();
             char firstLetter = value[0];
             bool containsFirstLetter = value.Substring(1).Contains(firstLetter);
             return containsFirstLetter;
